@@ -1,5 +1,38 @@
-<section class="mt-[100px] md:mt-[120px]">
+<section class="mt-[100px] md:mt-[120px] overflow-hidden">
     <h2 class="text-2xl leading-[30px] mb-8 md:text-[32px] md:leading-[40px] font-bold text-center">My Work</h2>
 
-    {# slider #}
+    <div class="work-slider container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide rounded-[10px] overflow-clip w-[270px] md:w-[540px]">
+                <img src="/img/image-slide-3.jpg" alt="">
+            </div>
+            <div class="swiper-slide rounded-[10px] overflow-clip w-[270px] md:w-[540px]">
+                <img src="/img/image-slide-4.jpg" alt="">
+            </div>
+            <div class="swiper-slide rounded-[10px] overflow-clip w-[270px] md:w-[540px]">
+                <img src="/img/image-slide-5.jpg" alt="">
+            </div>
+            <div class="swiper-slide rounded-[10px] overflow-clip w-[270px] md:w-[540px]">
+                <img src="/img/image-slide-1.jpg" alt="">
+            </div>
+            <div class="swiper-slide rounded-[10px] overflow-clip w-[270px] md:w-[540px]">
+                <img src="/img/image-slide-2.jpg" alt="">
+            </div>
+        </div>
+        <div class="flex items-center justify-center mt-8 md:mt-16">
+            <div class="button-prev mx-2">
+                <div class="w-16 h-16 items-center justify-center flex bg-black rounded-full hover:bg-purple duration-300">
+                    <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="#FFF" d="M8 0 0 8l8 8 1.687-1.687-5.121-5.12h10.241V6.807H4.566l5.121-5.12z"/></svg>
+                </div>
+            </div>
+            <div class="button-next mx-2">
+                <div class="w-16 h-16 items-center justify-center flex bg-black rounded-full hover:bg-purple duration-300">
+                    <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="#FFF" d="m6.808 16 8-8-8-8-1.687 1.687 5.121 5.12H.001v2.386h10.241l-5.121 5.12z"/></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
