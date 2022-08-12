@@ -10,7 +10,7 @@ const swiper = new Swiper('.work-slider', {
     // Optional parameters
     loop: true,
     slidesPerView: 'auto',
-    spaceBetween: 15,
+    spaceBetween: 30,
     centeredSlides: true,
 
     // Navigation arrows
